@@ -23,9 +23,14 @@ _global_script_class_icons={
 config/name="SpaceJanitorPuzzle"
 config/icon="res://icon.png"
 
+[editor]
+
+version_control_autoload_on_startup=true
+version_control_plugin_name="GitAPI"
+
 [gdnative]
 
-singletons=[ "res://addons/godot-git-plugin/git_api.gdnlib" ]
+singletons=[  ]
 
 [physics]
 
